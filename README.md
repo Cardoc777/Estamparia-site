@@ -239,6 +239,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+index.html
+
+html
+
 <form method="post" action="#">
   <label for="produto">Produto:</label>
   <select id="produto" name="produto" required>
