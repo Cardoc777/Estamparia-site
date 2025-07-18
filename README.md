@@ -255,3 +255,41 @@ html
   <input id="tamanho" type="text" name="tamanho" placeholder="P, M, G..." required>
   ...
 </form>
+
+  <section id="inicio">
+    <h2>Transforme sua ideia em arte estampada</h2>
+    <p>Personalizamos camisetas, canecas, ecobags, quadros, wind banners e muito mais!</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos-lista">
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Camiseta" alt="Camiseta"><p>Camisetas</p></div>
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Caneca" alt="Caneca"><p>Canecas</p></div>
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Ecobag" alt="Ecobag"><p>Ecobags</p></div>
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Capinha" alt="Capinha"><p>Capinhas</p></div>
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Quadro" alt="Quadro"><p>Quadros</p></div>
+      <div class="produto-card"><img src="https://via.placeholder.com/150?text=Wind+Banner" alt="Wind Banner"><p>Wind Banner</p></div>
+    </div>
+  </section>
+
+  <section id="pedido">
+    <h2>Faça seu Pedido</h2>
+    <form>
+      <label>Produto:
+        <select name="produto">
+          <option>Camiseta</option>
+          <option>Caneca</option>
+          <option>Ecobag</option>
+          <option>Wind Banner</option>
+        </select>
+      </label>
+      <label>Tamanho: <input type="text" name="tamanho" placeholder="P, M, G..."></label>
+      <label>Largura/Altura (cm): <input type="text" name="dimensoes" placeholder="Ex: 30x40"></label>
+      <label>Cor do produto: <input type="color" name="cor"></label>
+      <label>Upload da arte: <input type="file" name="arquivo"></label>
+      <div id="preview"><h3>Preview da sua estampa:</h3><img id="mockup" src="https://via.placeholder.com/200x200.png?text=Mockup" style="max-width: 200px;"></div>
+      <label>Observações: <textarea name="observacoes" placeholder="Escreva aqui o que deseja..."></textarea></label>
+      <label>Seu nome: <input type="text" name="nome"></label>
+      <label>E-mail: <input type="email" name="email"></label>
+      <button type="submit">Enviar Ped
